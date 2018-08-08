@@ -1,4 +1,33 @@
 <?php
+define('THEME URL', get_stylesheet_directory());
+
+/**
+ * chen RSS link
+ */
+add_theme_support('automatic_feed_links');
+
+/**
+ * Them title tag
+ */
+add_theme_support('title-tag');
+
+/**
+ * Them post thumnail
+ */
+add_theme_support('post-thumbnails');
+
+/**
+ * THem post format
+ */
+add_theme_support('post-formats',
+    array(
+        'image',
+        'video',
+        'gallery',
+        'quote',
+        'link'
+    )
+);
 function paginate() {
     if (get_next_post_link()) { ?>
         <div class = "prev"><?php next_posts_link('Older Post'); ?></div>
@@ -16,7 +45,7 @@ $sidebar = [
     'description' => 'day la description ve sidebar',
     'class' => 'sidebar_class',
     'name' => 'sidebar',
-    'before_title' => '<h3 class="widgettitle">',
+    'before_title' => '<h3 class="widge title">',
     'after_sidebar' => '</h3>'
 ];
 register_sidebar($sidebar);
@@ -27,4 +56,15 @@ function style() {
 }
 
 add_action('wp_enqueue_scripts', 'style');
+
+function entry_header() {
+    if (is_single()) : ?>
+        <h1 class="entry-title">
+            <a href="<?php the_permalink(); ?>" title = '<?php the_title_attribute(); ?>'>
+                <?php the_title(); ?>
+            </a>
+        </h1>
+    <?php
+    endif;
+}
 ?>

@@ -32,8 +32,6 @@ has_post_format
 the_post_thumbnail()         
     Display the post thumbnail.
 
-the_title_attribute()
-    cung cấp một phiên bản "sạch" của tiêu đề hon the_title()
 the_title()
     Hiển thị hoặc trả về tiêu đề chưa thoát của bài đăng hiện tại.
 
@@ -61,3 +59,47 @@ wp_register_style()
     1 cách an toàn để đăng ký file CSS để sử dụng sau này với wp_enqueue_style()
 
 add_action('wp_enqueue_scripts', 'style');
+
+define( 'THEME_URL', get_stylesheet_directory() );
+
+add_theme_support( 'automatic-feed-links' );
+
+add_theme_support('title-tag');
+
+add_theme_support('post-thumbnails');
+
+sprintf
+    Trả về chuỗi được định dạng
+
+the_title_attribute()    
+    Hiển thị hoặc trả về tiêu đề của bài đăng hiện tại ~ the_title() nhưng cung cấp phiên bản "sạch" của tiêu đề để sử dụng trong các thuộc tính HTML
+
+get_the_category_list()
+    ko co the_category_list()
+
+get_author_posts_url()
+    Gets the URL of the author page for the author with a given ID
+
+get_the_author_meta()
+    Truy xuất dữ liệu của tác giả của bài đăng hiện tại.
+
+wp_list_comments();
+comments_template();
+
+$search_query = new WP_Query( 's='.$s.'&showposts=-1' );
+    $search_keyword = wp_specialchars( $s, 1);
+    $search_count = $search_query->post_count;
+    //var_dump( $search_query );
+    printf( __('Search results for <strong>%1$s</strong>. We found <strong>%2$s</strong> articles for you.'), $search_keyword, $search_count );
+?>
+wp_specialchars()
+    Return Escaped $string
+
+single_tag_title()
+    Displays or returns the tag title for the current archive page.
+
+get_search_form()
+    Display search form
+
+wp_list_categories
+    Display or retrieve the HTML list of categories.
