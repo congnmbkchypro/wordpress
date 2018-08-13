@@ -33,6 +33,7 @@ function paginate() {
         <div class = "prev"><?php next_posts_link('Older Post'); ?></div>
     <?php if (get_previous_posts_link()) ?>
         <div class = 'next'><?php previous_posts_link('New Post'); ?></div>
+        <a href="<?php previous_posts_link('New Post'); ?>" class="w3-button">&raquo;</a>
     <?php 
     }
 }
@@ -67,4 +68,17 @@ function entry_header() {
     <?php
     endif;
 }
+
+add_filter('the_author', 'guest_author_name');
+add_filter( 'get_the_author_display_name', 'guest_author_name' );
+
+function guest_author_name($name) {
+    global $post;
+    $author = get_post_meta($post->ID, 'custom_field', true);
+    if ($author) {
+        $name = $author;
+    }
+    return $name;
+}
+
 ?>

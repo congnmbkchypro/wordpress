@@ -4,6 +4,8 @@
 <span class="date-published"><p><?php the_date(); ?></p></span>
 <span class="category">Category: <?php echo get_the_category_list(); ?></span> -->
 
+<!-- <?php wp_dropdown_users(array('order' => 'asc')); ?>  -->
+
 <?php
 printf( __('<span class="author">Posted by %1$s</span>'),
 get_the_author() );
