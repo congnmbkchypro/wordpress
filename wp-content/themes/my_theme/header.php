@@ -19,5 +19,5 @@
 <body>
     <header>        
         <h1><a href="<?php echo bloginfo('wpurl'); ?>"><?php echo bloginfo('name'); ?></a></h1>
-        <h3><?php echo bloginfo('description'); ?></h3>
+        <!-- <h3><?php echo bloginfo('description'); ?></h3> -->
     </header>

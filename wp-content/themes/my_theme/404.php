@@ -1,26 +1,18 @@
 <?php get_header(); ?>
  
-<div id="content">
-    <section id="main-content">
-        <?php
-                _e('<h2>404 NOT FOUND</h2>');
-                _e('<p>The article you were looking for was not found, but maybe try looking again!</p>');
+<div class="container">
+    <div id="content">
+        <section id="main-content">
+            <?php
+                _e('<h1>Oops! That page can’t be found.</h1>');
+                _e('<p>It looks like nothing was found at this location. Maybe try a search?</p>');
 
                 get_search_form();
+            ?>
+        </section>
 
-                _e('<h3>Content categories</h3>');
-                echo '<div class="404-catlist">';
-                wp_list_categories( array( 'title_li' => '' ) );
-                echo '</div>';
-
-                _e('<h3>Tag Cloud</h3>');
-                wp_tag_cloud();
-        ?>
-    </section>
-
-    <section id="sidebar">
-            <?php get_sidebar(); ?>
-    </section>
+        <?php get_sidebar(); ?>
+    </div>
 </div>
  
 <?php get_footer(); ?>
