@@ -20,7 +20,7 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'wordpress');
+define('DB_NAME', 'fabia');
 
 /** MySQL database username */
 define('DB_USER', 'root');
@@ -46,14 +46,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'fG;F)`y=MI3by<oW0yRo*+?WHln[yE(/)rEHQSf/0+xHQa@d1j8rRNJC/b:_BKj%');
-define('SECURE_AUTH_KEY',  'b$,U6k^vs.Z]{td<m<+3`/Kb64]%<SVT:i+G9z mhtV:B;tA_2WEp5_!7=$6Jflk');
-define('LOGGED_IN_KEY',    '.~Ux~@-.C<6#44?T5EWqf?FKR]|U$qd;qF-#{7_IO`PW4:+;FeV2t:VKWRpK5(wO');
-define('NONCE_KEY',        'fne>f5-[o9A{l:SSDHy^5@b^Yc42.v-Cn`!SE)#Z[L]`ZLwLp((<= 4*j$~e~g*B');
-define('AUTH_SALT',        'b~fV7SKG!ds*Tc>3t_1#*1m(k5NOiA)j$p_*Ysa$8kp3[mfR<[|6D^YBdpl3t#X-');
-define('SECURE_AUTH_SALT', ';%g_Z7Cz3.M]T@oK5A[g8dn>pW=#eZf0-#FL,R8Tgo-)mB9jG%_Vo`hZ`$C$67F.');
-define('LOGGED_IN_SALT',   'UK&zBa[hIz+B{FAux0adQ [iN5j.y9Kpkr/5`G+_Y8*o.cURb,#DjRQZORUGbC_r');
-define('NONCE_SALT',       '&yK&?Y9f6]CP@3{8.C.>2#=T+% laE0[:3s~=*_)L48QmCyYT+_QL1;C[pJ77BXU');
+define('AUTH_KEY',         '8`A^KbO=r4,>@tTbPfQw?|bQBl4L64NaK|1i2kkROEX7NmSU0)fSx=4naK|tTn<}');
+define('SECURE_AUTH_KEY',  'T/2} `)uI#tRhP<U{$2c6i6O{:10G)TE:Q_:7c$cOsHsb2w`T>Pg#eO0L{S}WB6k');
+define('LOGGED_IN_KEY',    '3U!)hlgsehB@8y=A9 Ybd-64pp^LS`bgD6G=,jO%zxxCwOhp0oM{`>i9$vXd^ig!');
+define('NONCE_KEY',        'HTlDD)=E)9YvgUub]!B=w#c&/2`:n:`(mN#s3G>hXdRguMsCHTPj)P|xg,55xXu2');
+define('AUTH_SALT',        'b^XD{b8leY$I}464h|Gx{pD+,0HB8gn$9`#Bsve]zz&uuo Q*jFjrO[McA#$&j<*');
+define('SECURE_AUTH_SALT', 'L*u>bqp^Vb+o,Z_B5#~p(0LY2KCFV=*Iol`Sy<f&f$Io{IW`ce_HuQ1;,gAz(O1:');
+define('LOGGED_IN_SALT',   'iW^xnn3u{SznPmh~cz.T3r3(.49@*.B(p@Ln83r)RSUDOhOfMLGs#Tpan{TDye^j');
+define('NONCE_SALT',       '~VTwx[0>{E!p++[w%=d)fnA9Z$aT)?ItP}=W9E2aSry$14r9cHC|BdkR?UT4yOjP');
 
 /**#@-*/
 
@@ -63,7 +63,7 @@ define('NONCE_SALT',       '&yK&?Y9f6]CP@3{8.C.>2#=T+% laE0[:3s~=*_)L48QmCyYT+_Q
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix  = 'wp_';
+$table_prefix  = 'fabia_';
 
 /**
  * For developers: WordPress debugging mode.
@@ -78,6 +78,7 @@ $table_prefix  = 'wp_';
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
 define('WP_DEBUG', true);
+define('WP_DEBUG_LOG', true);
 
 /* That's all, stop editing! Happy blogging. */
 
@@ -87,5 +88,3 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
-
-define( 'SAVEQUERIES', true );

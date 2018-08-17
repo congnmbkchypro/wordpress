@@ -16,5 +16,11 @@ get_the_date() );
 printf( __('<span class="category"> in %1$s</span>'),
 get_the_category_list( ', ' ) );
 
+// get all category
+$cate = get_categories();
+foreach ($cate as $cate) {
+    echo $cate->name . " ";
+}
+
 echo '<br>';
 ?>        
