@@ -1,0 +1,168 @@
+[17-Aug-2018 07:07:39 UTC] PHP Notice:  Undefined variable: taxonomy_id in D:\wamp64\www\FAB_Wordpress\wp-content\themes\my_theme\functions.php on line 213
+[17-Aug-2018 07:07:39 UTC] PHP Stack trace:
+[17-Aug-2018 07:07:39 UTC] PHP   1. {main}() D:\wamp64\www\FAB_Wordpress\wp-admin\admin-ajax.php:0
+[17-Aug-2018 07:07:39 UTC] PHP   2. require_once() D:\wamp64\www\FAB_Wordpress\wp-admin\admin-ajax.php:22
+[17-Aug-2018 07:07:39 UTC] PHP   3. require_once() D:\wamp64\www\FAB_Wordpress\wp-load.php:37
+[17-Aug-2018 07:07:39 UTC] PHP   4. require_once() D:\wamp64\www\FAB_Wordpress\wp-config.php:90
+[17-Aug-2018 07:07:39 UTC] PHP   5. include() D:\wamp64\www\FAB_Wordpress\wp-settings.php:426
+[17-Aug-2018 07:07:40 UTC] PHP Notice:  Undefined variable: taxonomy_id in D:\wamp64\www\FAB_Wordpress\wp-content\themes\my_theme\functions.php on line 213
+[17-Aug-2018 07:07:40 UTC] PHP Stack trace:
+[17-Aug-2018 07:07:40 UTC] PHP   1. {main}() D:\wamp64\www\FAB_Wordpress\wp-admin\post-new.php:0
+[17-Aug-2018 07:07:40 UTC] PHP   2. require_once() D:\wamp64\www\FAB_Wordpress\wp-admin\post-new.php:10
+[17-Aug-2018 07:07:40 UTC] PHP   3. require_once() D:\wamp64\www\FAB_Wordpress\wp-admin\admin.php:31
+[17-Aug-2018 07:07:40 UTC] PHP   4. require_once() D:\wamp64\www\FAB_Wordpress\wp-load.php:37
+[17-Aug-2018 07:07:40 UTC] PHP   5. require_once() D:\wamp64\www\FAB_Wordpress\wp-config.php:90
+[17-Aug-2018 07:07:40 UTC] PHP   6. include() D:\wamp64\www\FAB_Wordpress\wp-settings.php:426
+[17-Aug-2018 07:07:56 UTC] PHP Notice:  Undefined variable: taxonomy_id in D:\wamp64\www\FAB_Wordpress\wp-content\themes\my_theme\functions.php on line 213
+[17-Aug-2018 07:07:56 UTC] PHP Stack trace:
+[17-Aug-2018 07:07:56 UTC] PHP   1. {main}() D:\wamp64\www\FAB_Wordpress\wp-admin\admin-ajax.php:0
+[17-Aug-2018 07:07:56 UTC] PHP   2. require_once() D:\wamp64\www\FAB_Wordpress\wp-admin\admin-ajax.php:22
+[17-Aug-2018 07:07:56 UTC] PHP   3. require_once() D:\wamp64\www\FAB_Wordpress\wp-load.php:37
+[17-Aug-2018 07:07:56 UTC] PHP   4. require_once() D:\wamp64\www\FAB_Wordpress\wp-config.php:90
+[17-Aug-2018 07:07:56 UTC] PHP   5. include() D:\wamp64\www\FAB_Wordpress\wp-settings.php:426
+[17-Aug-2018 07:08:11 UTC] PHP Notice:  Undefined variable: taxonomy_id in D:\wamp64\www\FAB_Wordpress\wp-content\themes\my_theme\functions.php on line 213
+[17-Aug-2018 07:08:11 UTC] PHP Stack trace:
+[17-Aug-2018 07:08:11 UTC] PHP   1. {main}() D:\wamp64\www\FAB_Wordpress\wp-admin\admin-ajax.php:0
+[17-Aug-2018 07:08:11 UTC] PHP   2. require_once() D:\wamp64\www\FAB_Wordpress\wp-admin\admin-ajax.php:22
+[17-Aug-2018 07:08:11 UTC] PHP   3. require_once() D:\wamp64\www\FAB_Wordpress\wp-load.php:37
+[17-Aug-2018 07:08:11 UTC] PHP   4. require_once() D:\wamp64\www\FAB_Wordpress\wp-config.php:90
+[17-Aug-2018 07:08:11 UTC] PHP   5. include() D:\wamp64\www\FAB_Wordpress\wp-settings.php:426
+[17-Aug-2018 07:10:11 UTC] PHP Notice:  Undefined variable: taxonomy_id in D:\wamp64\www\FAB_Wordpress\wp-content\themes\my_theme\functions.php on line 213
+[17-Aug-2018 07:10:11 UTC] PHP Stack trace:
+[17-Aug-2018 07:10:11 UTC] PHP   1. {main}() D:\wamp64\www\FAB_Wordpress\wp-admin\admin-ajax.php:0
+[17-Aug-2018 07:10:11 UTC] PHP   2. require_once() D:\wamp64\www\FAB_Wordpress\wp-admin\admin-ajax.php:22
+[17-Aug-2018 07:10:11 UTC] PHP   3. require_once() D:\wamp64\www\FAB_Wordpress\wp-load.php:37
+[17-Aug-2018 07:10:11 UTC] PHP   4. require_once() D:\wamp64\www\FAB_Wordpress\wp-config.php:90
+[17-Aug-2018 07:10:11 UTC] PHP   5. include() D:\wamp64\www\FAB_Wordpress\wp-settings.php:426
+[17-Aug-2018 07:10:27 UTC] PHP Notice:  Undefined variable: taxonomy_id in D:\wamp64\www\FAB_Wordpress\wp-content\themes\my_theme\functions.php on line 213
+[17-Aug-2018 07:10:27 UTC] PHP Stack trace:
+[17-Aug-2018 07:10:27 UTC] PHP   1. {main}() D:\wamp64\www\FAB_Wordpress\wp-admin\admin-ajax.php:0
+[17-Aug-2018 07:10:27 UTC] PHP   2. require_once() D:\wamp64\www\FAB_Wordpress\wp-admin\admin-ajax.php:22
+[17-Aug-2018 07:10:27 UTC] PHP   3. require_once() D:\wamp64\www\FAB_Wordpress\wp-load.php:37
+[17-Aug-2018 07:10:27 UTC] PHP   4. require_once() D:\wamp64\www\FAB_Wordpress\wp-config.php:90
+[17-Aug-2018 07:10:27 UTC] PHP   5. include() D:\wamp64\www\FAB_Wordpress\wp-settings.php:426
+[17-Aug-2018 07:10:29 UTC] PHP Notice:  Undefined variable: taxonomy_id in D:\wamp64\www\FAB_Wordpress\wp-content\themes\my_theme\functions.php on line 213
+[17-Aug-2018 07:10:29 UTC] PHP Stack trace:
+[17-Aug-2018 07:10:29 UTC] PHP   1. {main}() D:\wamp64\www\FAB_Wordpress\wp-admin\post-new.php:0
+[17-Aug-2018 07:10:29 UTC] PHP   2. require_once() D:\wamp64\www\FAB_Wordpress\wp-admin\post-new.php:10
+[17-Aug-2018 07:10:29 UTC] PHP   3. require_once() D:\wamp64\www\FAB_Wordpress\wp-admin\admin.php:31
+[17-Aug-2018 07:10:29 UTC] PHP   4. require_once() D:\wamp64\www\FAB_Wordpress\wp-load.php:37
+[17-Aug-2018 07:10:29 UTC] PHP   5. require_once() D:\wamp64\www\FAB_Wordpress\wp-config.php:90
+[17-Aug-2018 07:10:29 UTC] PHP   6. include() D:\wamp64\www\FAB_Wordpress\wp-settings.php:426
+[17-Aug-2018 07:41:14 UTC] PHP Notice:  Undefined variable: args in D:\wamp64\www\FAB_Wordpress\wp-content\themes\my_theme\functions.php on line 106
+[17-Aug-2018 07:41:14 UTC] PHP Stack trace:
+[17-Aug-2018 07:41:14 UTC] PHP   1. {main}() D:\wamp64\www\FAB_Wordpress\wp-admin\admin-ajax.php:0
+[17-Aug-2018 07:41:14 UTC] PHP   2. require_once() D:\wamp64\www\FAB_Wordpress\wp-admin\admin-ajax.php:22
+[17-Aug-2018 07:41:14 UTC] PHP   3. require_once() D:\wamp64\www\FAB_Wordpress\wp-load.php:37
+[17-Aug-2018 07:41:14 UTC] PHP   4. require_once() D:\wamp64\www\FAB_Wordpress\wp-config.php:90
+[17-Aug-2018 07:41:14 UTC] PHP   5. do_action() D:\wamp64\www\FAB_Wordpress\wp-settings.php:450
+[17-Aug-2018 07:41:14 UTC] PHP   6. WP_Hook->do_action() D:\wamp64\www\FAB_Wordpress\wp-includes\plugin.php:453
+[17-Aug-2018 07:41:14 UTC] PHP   7. WP_Hook->apply_filters() D:\wamp64\www\FAB_Wordpress\wp-includes\class-wp-hook.php:310
+[17-Aug-2018 07:41:14 UTC] PHP   8. call_user_func_array:{D:\wamp64\www\FAB_Wordpress\wp-includes\class-wp-hook.php:286}() D:\wamp64\www\FAB_Wordpress\wp-includes\class-wp-hook.php:286
+[17-Aug-2018 07:41:14 UTC] PHP   9. RWMB_Core->register_meta_boxes() D:\wamp64\www\FAB_Wordpress\wp-includes\class-wp-hook.php:286
+[17-Aug-2018 07:41:14 UTC] PHP  10. apply_filters() D:\wamp64\www\FAB_Wordpress\wp-content\plugins\meta-box\inc\core.php:50
+[17-Aug-2018 07:41:14 UTC] PHP  11. WP_Hook->apply_filters() D:\wamp64\www\FAB_Wordpress\wp-includes\plugin.php:203
+[17-Aug-2018 07:41:14 UTC] PHP  12. call_user_func_array:{D:\wamp64\www\FAB_Wordpress\wp-includes\class-wp-hook.php:286}() D:\wamp64\www\FAB_Wordpress\wp-includes\class-wp-hook.php:286
+[17-Aug-2018 07:41:14 UTC] PHP  13. prefix_meta_boxes() D:\wamp64\www\FAB_Wordpress\wp-includes\class-wp-hook.php:286
+[17-Aug-2018 07:41:16 UTC] PHP Notice:  Undefined variable: args in D:\wamp64\www\FAB_Wordpress\wp-content\themes\my_theme\functions.php on line 106
+[17-Aug-2018 07:41:16 UTC] PHP Stack trace:
+[17-Aug-2018 07:41:16 UTC] PHP   1. {main}() D:\wamp64\www\FAB_Wordpress\wp-admin\post-new.php:0
+[17-Aug-2018 07:41:16 UTC] PHP   2. require_once() D:\wamp64\www\FAB_Wordpress\wp-admin\post-new.php:10
+[17-Aug-2018 07:41:16 UTC] PHP   3. require_once() D:\wamp64\www\FAB_Wordpress\wp-admin\admin.php:31
+[17-Aug-2018 07:41:16 UTC] PHP   4. require_once() D:\wamp64\www\FAB_Wordpress\wp-load.php:37
+[17-Aug-2018 07:41:16 UTC] PHP   5. require_once() D:\wamp64\www\FAB_Wordpress\wp-config.php:90
+[17-Aug-2018 07:41:16 UTC] PHP   6. do_action() D:\wamp64\www\FAB_Wordpress\wp-settings.php:450
+[17-Aug-2018 07:41:16 UTC] PHP   7. WP_Hook->do_action() D:\wamp64\www\FAB_Wordpress\wp-includes\plugin.php:453
+[17-Aug-2018 07:41:16 UTC] PHP   8. WP_Hook->apply_filters() D:\wamp64\www\FAB_Wordpress\wp-includes\class-wp-hook.php:310
+[17-Aug-2018 07:41:16 UTC] PHP   9. call_user_func_array:{D:\wamp64\www\FAB_Wordpress\wp-includes\class-wp-hook.php:286}() D:\wamp64\www\FAB_Wordpress\wp-includes\class-wp-hook.php:286
+[17-Aug-2018 07:41:16 UTC] PHP  10. RWMB_Core->register_meta_boxes() D:\wamp64\www\FAB_Wordpress\wp-includes\class-wp-hook.php:286
+[17-Aug-2018 07:41:16 UTC] PHP  11. apply_filters() D:\wamp64\www\FAB_Wordpress\wp-content\plugins\meta-box\inc\core.php:50
+[17-Aug-2018 07:41:16 UTC] PHP  12. WP_Hook->apply_filters() D:\wamp64\www\FAB_Wordpress\wp-includes\plugin.php:203
+[17-Aug-2018 07:41:16 UTC] PHP  13. call_user_func_array:{D:\wamp64\www\FAB_Wordpress\wp-includes\class-wp-hook.php:286}() D:\wamp64\www\FAB_Wordpress\wp-includes\class-wp-hook.php:286
+[17-Aug-2018 07:41:16 UTC] PHP  14. prefix_meta_boxes() D:\wamp64\www\FAB_Wordpress\wp-includes\class-wp-hook.php:286
+[17-Aug-2018 07:41:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\wamp64\www\FAB_Wordpress\wp-content\themes\my_theme\functions.php:106) in D:\wamp64\www\FAB_Wordpress\wp-admin\includes\misc.php on line 1124
+[17-Aug-2018 07:41:16 UTC] PHP Stack trace:
+[17-Aug-2018 07:41:16 UTC] PHP   1. {main}() D:\wamp64\www\FAB_Wordpress\wp-admin\post-new.php:0
+[17-Aug-2018 07:41:16 UTC] PHP   2. require_once() D:\wamp64\www\FAB_Wordpress\wp-admin\post-new.php:10
+[17-Aug-2018 07:41:16 UTC] PHP   3. do_action() D:\wamp64\www\FAB_Wordpress\wp-admin\admin.php:156
+[17-Aug-2018 07:41:16 UTC] PHP   4. WP_Hook->do_action() D:\wamp64\www\FAB_Wordpress\wp-includes\plugin.php:453
+[17-Aug-2018 07:41:16 UTC] PHP   5. WP_Hook->apply_filters() D:\wamp64\www\FAB_Wordpress\wp-includes\class-wp-hook.php:310
+[17-Aug-2018 07:41:16 UTC] PHP   6. call_user_func_array:{D:\wamp64\www\FAB_Wordpress\wp-includes\class-wp-hook.php:286}() D:\wamp64\www\FAB_Wordpress\wp-includes\class-wp-hook.php:286
+[17-Aug-2018 07:41:16 UTC] PHP   7. wp_admin_headers() D:\wamp64\www\FAB_Wordpress\wp-includes\class-wp-hook.php:286
+[17-Aug-2018 07:41:16 UTC] PHP   8. header() D:\wamp64\www\FAB_Wordpress\wp-admin\includes\misc.php:1124
+[17-Aug-2018 07:41:32 UTC] PHP Notice:  Undefined variable: args in D:\wamp64\www\FAB_Wordpress\wp-content\themes\my_theme\functions.php on line 106
+[17-Aug-2018 07:41:32 UTC] PHP Stack trace:
+[17-Aug-2018 07:41:32 UTC] PHP   1. {main}() D:\wamp64\www\FAB_Wordpress\wp-admin\admin-ajax.php:0
+[17-Aug-2018 07:41:32 UTC] PHP   2. require_once() D:\wamp64\www\FAB_Wordpress\wp-admin\admin-ajax.php:22
+[17-Aug-2018 07:41:32 UTC] PHP   3. require_once() D:\wamp64\www\FAB_Wordpress\wp-load.php:37
+[17-Aug-2018 07:41:32 UTC] PHP   4. require_once() D:\wamp64\www\FAB_Wordpress\wp-config.php:90
+[17-Aug-2018 07:41:32 UTC] PHP   5. do_action() D:\wamp64\www\FAB_Wordpress\wp-settings.php:450
+[17-Aug-2018 07:41:32 UTC] PHP   6. WP_Hook->do_action() D:\wamp64\www\FAB_Wordpress\wp-includes\plugin.php:453
+[17-Aug-2018 07:41:32 UTC] PHP   7. WP_Hook->apply_filters() D:\wamp64\www\FAB_Wordpress\wp-includes\class-wp-hook.php:310
+[17-Aug-2018 07:41:32 UTC] PHP   8. call_user_func_array:{D:\wamp64\www\FAB_Wordpress\wp-includes\class-wp-hook.php:286}() D:\wamp64\www\FAB_Wordpress\wp-includes\class-wp-hook.php:286
+[17-Aug-2018 07:41:32 UTC] PHP   9. RWMB_Core->register_meta_boxes() D:\wamp64\www\FAB_Wordpress\wp-includes\class-wp-hook.php:286
+[17-Aug-2018 07:41:32 UTC] PHP  10. apply_filters() D:\wamp64\www\FAB_Wordpress\wp-content\plugins\meta-box\inc\core.php:50
+[17-Aug-2018 07:41:32 UTC] PHP  11. WP_Hook->apply_filters() D:\wamp64\www\FAB_Wordpress\wp-includes\plugin.php:203
+[17-Aug-2018 07:41:32 UTC] PHP  12. call_user_func_array:{D:\wamp64\www\FAB_Wordpress\wp-includes\class-wp-hook.php:286}() D:\wamp64\www\FAB_Wordpress\wp-includes\class-wp-hook.php:286
+[17-Aug-2018 07:41:32 UTC] PHP  13. prefix_meta_boxes() D:\wamp64\www\FAB_Wordpress\wp-includes\class-wp-hook.php:286
+[17-Aug-2018 08:53:51 UTC] PHP Notice:  Undefined index: category in D:\wamp64\www\FAB_Wordpress\wp-content\themes\my_theme\functions.php on line 161
+[17-Aug-2018 08:53:51 UTC] PHP Stack trace:
+[17-Aug-2018 08:53:51 UTC] PHP   1. {main}() D:\wamp64\www\FAB_Wordpress\wp-admin\post.php:0
+[17-Aug-2018 08:53:51 UTC] PHP   2. edit_post() D:\wamp64\www\FAB_Wordpress\wp-admin\post.php:194
+[17-Aug-2018 08:53:51 UTC] PHP   3. wp_update_post() D:\wamp64\www\FAB_Wordpress\wp-admin\includes\post.php:377
+[17-Aug-2018 08:53:51 UTC] PHP   4. wp_insert_post() D:\wamp64\www\FAB_Wordpress\wp-includes\post.php:3713
+[17-Aug-2018 08:53:51 UTC] PHP   5. do_action() D:\wamp64\www\FAB_Wordpress\wp-includes\post.php:3614
+[17-Aug-2018 08:53:51 UTC] PHP   6. WP_Hook->do_action() D:\wamp64\www\FAB_Wordpress\wp-includes\plugin.php:453
+[17-Aug-2018 08:53:51 UTC] PHP   7. WP_Hook->apply_filters() D:\wamp64\www\FAB_Wordpress\wp-includes\class-wp-hook.php:310
+[17-Aug-2018 08:53:51 UTC] PHP   8. call_user_func_array:{D:\wamp64\www\FAB_Wordpress\wp-includes\class-wp-hook.php:288}() D:\wamp64\www\FAB_Wordpress\wp-includes\class-wp-hook.php:288
+[17-Aug-2018 08:53:51 UTC] PHP   9. wp_save_post_revision() D:\wamp64\www\FAB_Wordpress\wp-includes\class-wp-hook.php:288
+[17-Aug-2018 08:53:51 UTC] PHP  10. _wp_put_post_revision() D:\wamp64\www\FAB_Wordpress\wp-includes\revision.php:186
+[17-Aug-2018 08:53:51 UTC] PHP  11. wp_insert_post() D:\wamp64\www\FAB_Wordpress\wp-includes\revision.php:300
+[17-Aug-2018 08:53:51 UTC] PHP  12. do_action() D:\wamp64\www\FAB_Wordpress\wp-includes\post.php:3640
+[17-Aug-2018 08:53:51 UTC] PHP  13. WP_Hook->do_action() D:\wamp64\www\FAB_Wordpress\wp-includes\plugin.php:453
+[17-Aug-2018 08:53:51 UTC] PHP  14. WP_Hook->apply_filters() D:\wamp64\www\FAB_Wordpress\wp-includes\class-wp-hook.php:310
+[17-Aug-2018 08:53:51 UTC] PHP  15. call_user_func_array:{D:\wamp64\www\FAB_Wordpress\wp-includes\class-wp-hook.php:288}() D:\wamp64\www\FAB_Wordpress\wp-includes\class-wp-hook.php:288
+[17-Aug-2018 08:53:51 UTC] PHP  16. save_metabox_cate() D:\wamp64\www\FAB_Wordpress\wp-includes\class-wp-hook.php:288
+[17-Aug-2018 08:53:51 UTC] PHP Notice:  Undefined index: category in D:\wamp64\www\FAB_Wordpress\wp-content\themes\my_theme\functions.php on line 161
+[17-Aug-2018 08:53:51 UTC] PHP Stack trace:
+[17-Aug-2018 08:53:51 UTC] PHP   1. {main}() D:\wamp64\www\FAB_Wordpress\wp-admin\post.php:0
+[17-Aug-2018 08:53:51 UTC] PHP   2. edit_post() D:\wamp64\www\FAB_Wordpress\wp-admin\post.php:194
+[17-Aug-2018 08:53:51 UTC] PHP   3. wp_update_post() D:\wamp64\www\FAB_Wordpress\wp-admin\includes\post.php:377
+[17-Aug-2018 08:53:51 UTC] PHP   4. wp_insert_post() D:\wamp64\www\FAB_Wordpress\wp-includes\post.php:3713
+[17-Aug-2018 08:53:51 UTC] PHP   5. do_action() D:\wamp64\www\FAB_Wordpress\wp-includes\post.php:3640
+[17-Aug-2018 08:53:51 UTC] PHP   6. WP_Hook->do_action() D:\wamp64\www\FAB_Wordpress\wp-includes\plugin.php:453
+[17-Aug-2018 08:53:51 UTC] PHP   7. WP_Hook->apply_filters() D:\wamp64\www\FAB_Wordpress\wp-includes\class-wp-hook.php:310
+[17-Aug-2018 08:53:51 UTC] PHP   8. call_user_func_array:{D:\wamp64\www\FAB_Wordpress\wp-includes\class-wp-hook.php:288}() D:\wamp64\www\FAB_Wordpress\wp-includes\class-wp-hook.php:288
+[17-Aug-2018 08:53:51 UTC] PHP   9. save_metabox_cate() D:\wamp64\www\FAB_Wordpress\wp-includes\class-wp-hook.php:288
+[17-Aug-2018 08:53:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\wamp64\www\FAB_Wordpress\wp-content\themes\my_theme\functions.php:161) in D:\wamp64\www\FAB_Wordpress\wp-admin\post.php on line 198
+[17-Aug-2018 08:53:51 UTC] PHP Stack trace:
+[17-Aug-2018 08:53:51 UTC] PHP   1. {main}() D:\wamp64\www\FAB_Wordpress\wp-admin\post.php:0
+[17-Aug-2018 08:53:51 UTC] PHP   2. setcookie() D:\wamp64\www\FAB_Wordpress\wp-admin\post.php:198
+[17-Aug-2018 08:53:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\wamp64\www\FAB_Wordpress\wp-content\themes\my_theme\functions.php:161) in D:\wamp64\www\FAB_Wordpress\wp-includes\pluggable.php on line 1219
+[17-Aug-2018 08:53:51 UTC] PHP Stack trace:
+[17-Aug-2018 08:53:51 UTC] PHP   1. {main}() D:\wamp64\www\FAB_Wordpress\wp-admin\post.php:0
+[17-Aug-2018 08:53:51 UTC] PHP   2. redirect_post() D:\wamp64\www\FAB_Wordpress\wp-admin\post.php:201
+[17-Aug-2018 08:53:51 UTC] PHP   3. wp_redirect() D:\wamp64\www\FAB_Wordpress\wp-admin\includes\post.php:1874
+[17-Aug-2018 08:53:51 UTC] PHP   4. header() D:\wamp64\www\FAB_Wordpress\wp-includes\pluggable.php:1219
+[17-Aug-2018 09:23:02 UTC] PHP Notice:  Undefined index: category in D:\wamp64\www\FAB_Wordpress\wp-content\themes\my_theme\functions.php on line 161
+[17-Aug-2018 09:23:02 UTC] PHP Stack trace:
+[17-Aug-2018 09:23:02 UTC] PHP   1. {main}() D:\wamp64\www\FAB_Wordpress\wp-admin\post.php:0
+[17-Aug-2018 09:23:02 UTC] PHP   2. edit_post() D:\wamp64\www\FAB_Wordpress\wp-admin\post.php:194
+[17-Aug-2018 09:23:02 UTC] PHP   3. wp_update_post() D:\wamp64\www\FAB_Wordpress\wp-admin\includes\post.php:377
+[17-Aug-2018 09:23:02 UTC] PHP   4. wp_insert_post() D:\wamp64\www\FAB_Wordpress\wp-includes\post.php:3713
+[17-Aug-2018 09:23:02 UTC] PHP   5. do_action() D:\wamp64\www\FAB_Wordpress\wp-includes\post.php:3640
+[17-Aug-2018 09:23:02 UTC] PHP   6. WP_Hook->do_action() D:\wamp64\www\FAB_Wordpress\wp-includes\plugin.php:453
+[17-Aug-2018 09:23:02 UTC] PHP   7. WP_Hook->apply_filters() D:\wamp64\www\FAB_Wordpress\wp-includes\class-wp-hook.php:310
+[17-Aug-2018 09:23:02 UTC] PHP   8. call_user_func_array:{D:\wamp64\www\FAB_Wordpress\wp-includes\class-wp-hook.php:288}() D:\wamp64\www\FAB_Wordpress\wp-includes\class-wp-hook.php:288
+[17-Aug-2018 09:23:02 UTC] PHP   9. save_metabox_cate() D:\wamp64\www\FAB_Wordpress\wp-includes\class-wp-hook.php:288
+[17-Aug-2018 09:23:07 UTC] PHP Notice:  Undefined index: category in D:\wamp64\www\FAB_Wordpress\wp-content\themes\my_theme\functions.php on line 161
+[17-Aug-2018 09:23:07 UTC] PHP Stack trace:
+[17-Aug-2018 09:23:07 UTC] PHP   1. {main}() D:\wamp64\www\FAB_Wordpress\wp-admin\post.php:0
+[17-Aug-2018 09:23:07 UTC] PHP   2. edit_post() D:\wamp64\www\FAB_Wordpress\wp-admin\post.php:194
+[17-Aug-2018 09:23:07 UTC] PHP   3. wp_update_post() D:\wamp64\www\FAB_Wordpress\wp-admin\includes\post.php:377
+[17-Aug-2018 09:23:07 UTC] PHP   4. wp_insert_post() D:\wamp64\www\FAB_Wordpress\wp-includes\post.php:3713
+[17-Aug-2018 09:23:07 UTC] PHP   5. do_action() D:\wamp64\www\FAB_Wordpress\wp-includes\post.php:3640
+[17-Aug-2018 09:23:07 UTC] PHP   6. WP_Hook->do_action() D:\wamp64\www\FAB_Wordpress\wp-includes\plugin.php:453
+[17-Aug-2018 09:23:07 UTC] PHP   7. WP_Hook->apply_filters() D:\wamp64\www\FAB_Wordpress\wp-includes\class-wp-hook.php:310
+[17-Aug-2018 09:23:07 UTC] PHP   8. call_user_func_array:{D:\wamp64\www\FAB_Wordpress\wp-includes\class-wp-hook.php:288}() D:\wamp64\www\FAB_Wordpress\wp-includes\class-wp-hook.php:288
+[17-Aug-2018 09:23:07 UTC] PHP   9. save_metabox_cate() D:\wamp64\www\FAB_Wordpress\wp-includes\class-wp-hook.php:288
