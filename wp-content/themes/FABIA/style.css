@@ -1,0 +1,751 @@
+/* 
+ * Theme Name: FABIA
+ * Version: 1.0
+ * Theme Author: FABIA
+ */
+@font-face {
+	font-family: 'NotoSansCJKjp-Bold';
+	src: url(fonts/NotoSansCJKjp-Bold.otf);
+}
+
+@font-face {
+	font-family: 'NotoSansCJKjp';
+	src: url(fonts/NotoSansCJKjp-Regular.otf);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-size: 62.5%;
+}
+body {
+	font-size: 1.4rem;
+	line-height: 1.5;
+	background: #fff;
+	font-family: 'NotoSansCJKjp', san-serif;
+	border: 1px solid #EEEEEE;
+	overflow-x: hidden;
+}
+a:hover {
+	color: #F94F48;
+}
+p {
+	margin-bottom: 0;
+}
+.container {
+	max-width: 1084px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.header__top {
+	height: 50px;
+}
+
+.header__logo {
+	padding-top: 15px;
+	padding-bottom: 14px;	
+}
+
+.header__logo img {
+	height: 17px;
+}
+
+.header__logo h1 a {
+	color: #222222;
+	line-height: 0;
+}
+
+.header__logo h1 a:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.title {
+	font-family: 'NotoSansCJKjp-Bold', san-serif;
+	font-size: 3.2rem;
+	line-height: 4.7rem;
+	letter-spacing: .06em;
+}
+.title__sub {
+	font-family: 'NotoSansCJKjp', san-serif;
+	font-size: 1.4rem;
+	line-height: 2rem;
+	letter-spacing: .1em;
+}
+.header__bottom {
+	background: url('img/intro.svg') no-repeat;
+	min-height: 920px;
+	background-size: cover;
+}
+#sec__about {
+	background: #DF5007;
+	text-align: center;
+	color: #fff;
+	padding-right: 16px;
+}
+
+#sec__about .about__inner h1.about__title {
+	margin-top: 65px;
+	margin-bottom: 0px;
+}
+
+#sec__about .title__sub {
+	display: block;
+	margin-top: 8px;
+	margin-bottom: 29px;
+}
+
+.about__txt {
+	font-family: 'NotoSansCJKjp-Bold', san-serif;
+	font-size: 1.6rem;
+	line-height: 1.6875;
+}
+
+.about__txt__1 {
+	margin-bottom: 16px;
+}
+
+.about__txt__2 {
+	margin-bottom: 37px;
+}
+
+.about__btn {
+	display: block;
+	margin: 0 auto;
+	max-width: 152px;
+	background: #fff;
+	color: #F94F48;
+	font-family: 'NotoSansCJKjp-Bold', san-serif;
+	font-size: 1.4rem;
+	line-height: 2rem;
+	letter-spacing: .2em;
+	padding: 10px 0;
+	border-radius: 3px;
+	margin-bottom: 68px;
+	cursor: pointer;
+	color: #DF5007;
+}
+
+.about__btn:hover {
+	text-decoration: none;
+	opacity: 0.8;
+}
+
+
+.clear{
+	clear: both;
+}
+
+.sec__benefit__and__prize {
+	text-align: center;
+	padding-bottom: 63px;
+	background: #F9F9F9;
+	padding-right: 16px;
+}
+
+.sec__benefit__and__prize .benefit__and__prize__title {
+	margin-top: 56px;
+	margin-bottom: 0px;
+	color: #222222;
+}
+
+.sec__benefit__and__prize .title__sub {
+	color: #999999;
+	display: block;
+	margin-top: 8px;
+	margin-bottom: 44px;
+}
+
+.benefit__image {
+	width: 524px;
+	height: 299px;
+	margin-bottom: 37px;
+	padding: 0px;
+}
+
+.prize__image {
+	position: relative;
+	width: 526px;
+	height: 322px;
+	padding: 0px;
+}
+
+.prize__block .col-md-push-2 {
+	left: 17.1%;
+}
+
+.benefit__info__block, .testimonial__info__block {
+	padding: 0px;
+}
+
+.benefit__intro {
+	max-width: 433px;
+	max-height: 215px;
+	background: #FFFFFF;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, .1);
+	text-align: left;
+	padding: 40px 48px;
+	margin-top: 53px;
+}
+
+.prize__intro {
+	max-width: 433px;
+	max-height: 215px;
+	background: #FFFFFF;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, .1);
+	text-align: left;
+	padding: 33px 35px 71px 42px;
+	margin-top: 80px;
+}
+
+.benefit__block .col-md-pull-1 {
+	right: 5.533%;
+}
+
+.prize__block .col-md-push-1 {
+	left: 10.333%;
+}
+
+.prize-info-image {
+	position: absolute;
+	font-family: 'NotoSansCJKjp-Bold', san-serif;
+	font-size: 2.1rem;
+	top: 48px;
+	left: 169px;
+	color: #FFFFFF;
+}
+
+.intro__title {
+	font-size: 1.7rem;
+	font-weight: bold;
+	line-height: 1.647;
+	color: #222222;
+}
+
+.benefit__intro p{
+	margin-bottom: 0px;
+	line-height: 1.64;
+	color: #222222;
+}
+
+.prize__intro p {
+	margin-bottom: 0px;
+	line-height: 1.64;
+	color: #222222;
+}
+
+.benefit__inner {
+	margin-left: 0;
+	margin-right: 0;
+}
+.benefit__img {
+	height: 299px;
+}
+
+.sec__how__to__entry {
+	position: relative;
+	background: #DF5007;
+	color: #FFF;
+	text-align: center;
+	padding-bottom: 92px;
+	padding-right: 16px;
+}
+
+.how__to__entry__title {
+	margin-top: 76px;
+}
+
+.sec__how__to__entry .title__sub {
+	display: block;
+	margin-top: 8px;
+}
+
+.how__to__entry__inner table{
+	margin-left: 175px;
+	margin-top: 37px;
+}
+
+.how__to__entry__inner table tr td{
+	padding-right: 19px;
+	text-align: left;
+	margin-left: 10px;
+	align-items: flex-start;
+	justify-content: flex-start;
+	line-height: 1.4;
+}
+
+.how__to__entry__inner table tr td ul li{
+	list-style: none;
+	line-height: 1.6;
+}
+
+#first__row td{
+	padding-bottom: 23px;
+}
+
+#first__row td.cell__label,  #second__row td.cell__label, #third__row td.cell__label{
+	width: 185px;
+	padding-right: 120px;
+}
+
+
+#third__row td{
+	padding-top: 25px;
+}
+
+#forth__row td{
+	padding-top: 29px;
+}
+
+.cell__label {
+	font-weight: bold;
+	vertical-align: top;
+}
+
+.how__to__entry__btn{
+	display: block;
+	max-width: 187px;
+	max-height: 56px;
+	background: #fff;
+	color: #F94F48;
+	font-family: 'NotoSansCJKjp-Bold', san-serif;
+	font-size: 1.4rem;
+	line-height: 2rem;
+	letter-spacing: .2em;
+	padding: 18px 65px;
+	margin-top: 13px;
+	cursor: pointer;
+	color: #DF5007;
+}
+
+.how__to__entry__btn:hover {
+	text-decoration: none;
+	opacity: 0.8;
+}
+
+.sec__faq {
+	text-align: center;
+	padding-bottom: 44px;
+}
+
+.sec__faq .faq__title {
+	margin-top: 60px;
+	margin-bottom: 0px;
+}
+
+.sec__faq .title__sub {
+	display: block;
+	margin-top: 8px;
+	margin-bottom: 51px;
+	color: #999999;
+}
+
+.faq__content {
+	text-align: left;
+}
+.faq__content .col-md-4 {
+	padding: 0;
+}
+.faq__content .question__row p.question {
+	font-family: 'NotoSansCJKjp-Bold', san-serif;
+	margin-bottom: 11px;
+	line-height: 1.428;
+}
+
+.faq__content .question__row {
+	margin-bottom: 37px;
+	padding: 0
+}
+
+.faq__content .question__row p {
+	line-height: 1.714;
+}
+
+.question__row .col-md-4 {
+	max-width: 340px;
+	width: 100%;
+	margin-right: 32px;
+}
+
+.question__row .col-md-4:last-child {
+	margin-right: 0;
+}
+.powered__by {
+	font-family: 'NotoSansCJKjp', san-serif;
+	margin-bottom: 143px;
+	padding-top: 72px;
+	font-size: 1.2rem;
+	position: relative;
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+.powered__by:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 8px;
+	width: calc(100% - 8px);
+	height: 1px;
+	background: #f3eaea;
+}
+
+.powered__by .col-md-6 {
+	padding: 0px;
+}
+
+.powered__by .powered__block {
+	text-align: center
+}
+
+.powered__by .powered__block_first {
+	margin-bottom: 82px;
+}
+
+.powered__by .powered__block .fabia__txt{
+	font-size: 1.2rem;
+	margin-top: 18px;
+	text-align: left;
+	padding-bottom: 4px;
+	line-height: 20px;
+}
+
+.powered__by .powered__block .cloud__casting__txt{
+	margin-top: 23px;
+	text-align: left;
+	padding-bottom: 4px;
+	line-height: 20px;
+	font-size: 1.2rem;
+}
+
+.powered__by .powered__block .fabia__label {
+	margin-bottom: 4px;
+	line-height: 1.7;
+}
+
+.powered__by .powered__block .cloud__casting__label {
+	margin-bottom: 10px;
+	line-height: 1.7;
+}
+
+.how__to__entry__image {
+	position: absolute;
+	font-size: 2.1rem;
+	top: 308px;
+	right: 112px;
+	line-height: 1.5;
+}
+
+.how__to__entry__last__txt {
+	font-family: 'NotoSansCJKjp-Bold', san-serif;
+	position: absolute;
+	right: 369px;
+	font-size: 1.2rem;
+	color: #333333;
+	margin-top: 26.03px;
+}
+
+.footer {
+	text-align: center;
+	background: #F7F7F7;
+	padding-top: 38.5px;
+	padding-bottom: 38px;
+	background-color: #F7F7F7;
+	font-size: 1.2rem;
+}
+
+.footer .footer__brand {
+	/*height: 68px;*/
+	line-height: 68px;
+	/*padding-top: 30px;*/
+}
+
+.footer .fabia__brand {
+	height: 100%;
+	border-right: 1px solid #707070;
+	padding-right: 36px;
+	float:left;
+}
+
+.footer .footer__brand__block {
+	margin-left: 404px; 
+	margin-bottom: 24.5px;
+}
+
+.footer__privacy {
+	margin-bottom: 38px;
+	margin-top: 24.5px;
+	line-height: 1.7;
+}
+
+.footer__copyright {
+	line-height: 1.7;
+}
+
+.otto__brand {
+	float:left;
+	padding-left: 36px;
+}
+
+@media only screen and (max-width: 1366px) {
+    .header__bottom {
+		background: url('img/intro.svg') center no-repeat;
+		min-height: 644px;
+		background-size: cover;
+}
+
+/*Mobile style*/
+@media only screen 
+  and (max-width: 667px) {
+  	.header__bottom {
+		background: url('img/intro_sp.png') no-repeat;
+		min-height: 640px;
+		background-size: cover;
+	}
+
+	.header__logo {
+		padding-left: 123px;
+	}
+
+	#sec__about {
+		text-align: left;
+		padding-left: 16px;
+	}
+
+	#sec__about .about__inner h1.about__title {
+		margin-top: 46px;
+		font-size: 2rem;
+		line-height: 1.45;
+		letter-spacing: 0.06em;
+	}
+
+	.about__btn {
+		margin: 0px;
+		text-align: center;
+		margin-bottom: 48px;
+	}
+
+	#sec__about .title__sub {
+		line-height: 1.428;
+		letter-spacing: 0.1em;
+		margin-top: 4px;
+		margin-bottom: 18px;
+		padding-bottom: 0px;
+	}
+
+	.about__txt__1 .about__txt {
+		font-family: 'NotoSansCJKjp', san-serif;
+		font-size: 1.4rem;
+		line-height: 1.714;
+	}
+
+	.about__txt__2 {
+		margin-bottom: 15px;
+	}
+
+
+	.about__txt__2 .about__txt{
+		font-family: 'NotoSansCJKjp', san-serif;
+		font-size: 1.4rem;
+		margin-bottom: 18px;
+		line-height: 1.428;
+	}
+
+	.about__txt__2 .about__txt_seventh {
+		margin-bottom: 0px;
+	}
+
+	.title {
+		font-size: 2rem;
+		margin-bottom: 0px;
+	}
+
+	#sec__about .title__sub {
+		padding-top: 0px;
+		padding-bottom: 4px;
+	}
+
+	.about__inner {
+		padding-top: 0px;
+	}
+
+	.sec__benefit__and__prize {
+		background-color: #F9F9F9;
+		margin-top: 68px;
+		text-align: left;
+		padding-top: 0px;
+		padding-bottom: 51px;
+		padding-left: 16px;
+	}
+
+	.sec__benefit__and__prize .benefit__and__prize__title {
+		font-size: 2rem;
+		line-height: 1.45;
+		letter-spacing: 0.06em;
+		margin-top: 68px;
+
+	}
+
+	.sec__benefit__and__prize .title__sub {
+		margin-top: 5px;
+		letter-spacing: 0.1em;
+		margin-bottom: 34px;
+	}
+
+	.benefit__image, .prize__image {
+		max-width: 380px;
+		max-height: 194px;
+		margin-bottom: 16px;
+	}
+
+	.benefit__image {
+		margin-bottom: 13px;
+		padding-right: 16px;
+	}
+
+	.benefit__img, .testimonial-img {
+		height: 194px;
+	}
+
+	.testimonial-img {
+		width: 343px;
+		height: 197px;
+	}
+
+	.prize__image {
+		margin-bottom: 0px;
+	}
+
+	.benefit__intro {
+		max-width: 380px;
+		background: none;
+		box-shadow: none;
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 33px;
+	}
+
+	.benefit__intro p {
+		font-size: 1.4rem;
+		line-height: 1.428;
+		color: #333333;
+	}
+
+	.prize__intro {
+		max-width: 342px;
+		background: none;
+		box-shadow: none;
+		padding: 0px;
+		margin-top: 18px;
+	}
+
+	.prize__intro p {
+		font-size: 1.4rem;
+		line-height: 1.642;
+		color: #222222;
+	}
+
+	.prize__intro .intro__title b{
+		font-size: 1.4rem;
+		line-height: 1.428;
+		color: #333333;
+	}
+
+	.benefit__block .col-md-pull-1 {
+		right: 0%;
+	}
+
+	.prize__block .col-md-push-2 {
+		left: 0%;
+	}
+
+	.sec__how__to__entry {
+		text-align: left;
+		padding-bottom: 60px;
+		padding-left: 16px;
+	}
+
+	.sec__how__to__entry .how__to__entry__title {
+		line-height: 1.45;
+		letter-spacing: 0.06em;
+		margin-top: 49px;
+	}
+
+
+	.sec__how__to__entry .title__sub {
+		margin-top: 5px;
+	}
+
+	.how__to__entry__inner table{
+		margin-left: 0px;
+		margin-top: 31px;
+
+	}
+
+	.how__to__entry__inner table tr td{
+		padding: 0px;
+		display: block;
+		padding-left: 0px;
+	}
+
+	.how__to__entry__inner table tr#third__row td#big__cell {
+		line-height: 1.642;
+	}
+
+	#first__row td.cell__label {
+		padding-bottom: 16px;
+	}
+
+	#first__row td.first__cell__content{
+		margin-bottom: 5px;
+	}
+
+	#second__row td.cell__label {
+		margin-bottom: 10px;
+	}
+
+	.sec__faq {
+		padding: 0px 16px 55px 16px;
+		text-align: left;
+	}
+
+	.faq__content .question__row {
+		padding: 0px;
+		padding-bottom: 0px;
+	}
+
+	.question__row .qa__group{
+		padding: 0px;
+	}
+
+	.powered__by {
+		padding-left: 16px;
+		padding-top: 24px;
+		text-align: center;
+	}
+
+	.powered__by .powered__block {
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+
+	.powered__by .cloud_casting {
+		margin-top: 50px;
+	}
+
+	.powered__by .powered__block img {
+		margin-top: 0px;
+	}
+
+	.prize__block .col-md-push-1 {
+		left: 0%;
+	}
+
+	.how__to__entry__inner table tr td {
+		margin-left: 0px;
+	}
+  }
+}

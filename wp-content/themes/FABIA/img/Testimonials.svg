@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 526 322.041">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #7fc4fd;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 31px;
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        fill: #2699fb;
+      }
+    </style>
+  </defs>
+  <g id="Testimonials" transform="translate(-28 -372)">
+    <rect id="長方形_242" data-name="長方形 242" class="cls-1" width="526" height="322.041" transform="translate(28 372)"/>
+    <text id="Prize_Information" data-name="Prize Information" class="cls-2" transform="translate(201.557 476.676)"><tspan x="0" y="0">Prize Information</tspan></text>
+    <g id="シンボル_11_2" data-name="シンボル 11 – 2" transform="translate(52.271 69.204)">
+      <circle id="楕円形_234" data-name="楕円形 234" class="cls-3" cx="40" cy="40" r="40" transform="translate(-1 335)"/>
+    </g>
+  </g>
+</svg>
