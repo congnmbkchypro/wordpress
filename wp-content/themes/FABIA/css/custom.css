@@ -1,5 +1,6 @@
+/* Set screen for mobile and pc */
 .main-content {
-    margin: 0 19px;
+    margin: 0 16px;
 }
 
 header {
@@ -11,21 +12,28 @@ h1, h2, h3, h4, strong {
     color: #333333;
 }
 
-h1 {
-    margin-bottom: 70px;
+.main-content h1 {
+    margin: 32.71px 0.5px 65.53px;
 }
 
-h1 a {
-    color: rgb(51,51,51);
+h1 {
+    color: #09c;
+    font-size: 16px;
+    line-height: 25px;  
 }
 
 h1 a:hover {
-    color: #007acc;
     text-decoration:  none;
 }
 
 h2 {
-    margin: 17px 0 39px 0;
+    margin: 0 0 24px 0;
+    padding: 2.5px 0;
+    font-size: 1.4rem; 
+}
+
+h3, h4, p {
+    font-size: 1.2rem;        
 }
 
 h3 {
@@ -41,82 +49,88 @@ h4 {
     opacity: 0.5;    
 }
 
-blockquote {
-    margin: 10px 0 15px 0;
-}
-
 img {
     width: 100%;
     height: auto;
-    margin: 15px 0;
+    margin: -5px 0;
 }
 
 div.date_created {
     position: relative;
-    top: 169px;
-    font-size: 1.5rem;
-    opacity: 0.5;
-    color: #5f5f5f; 
+    top: 93px;
+    font-size: 1.1rem;
+    color: #999999;
 }
 
-p {
-    padding-bottom: 20px;
+.main-content p {
+    padding-bottom: 22px;
     line-height: 20px;
-    color: #4f4f4f;
 }
 
-/* screen mobile */
-@media only screen and (max-width:768px) {
-    h1, h1 a {
-        font-size: 1.65rem;             
-    }
+div#post_thumbnail {
+    margin-bottom: -30px;
+}
 
-    h2 {
-        font-size: 1.4rem;        
-    }
-
-    h3, h4 {
-        font-size: 1.2rem;        
-    }
-
-    p {
-        font-size: 1.25rem;        
-    }
-
-    blockquote p {
-        font-size: 1.3rem;
-    }
-
+@media only screen and (min-width:992px) and (max-width:1440px) {
     div.date_created {
-        top: 80px;
-        font-size: 1.1rem;
-    }
-
-    div#post_thumbnail {
-        margin-bottom: -30px;
-    }
-}
-/* -- END SCREEN MOBILE -- */
-
-@media only screen and (min-width:992px) {
-    div.date_created {  
-        top: 123px;
-        font-size: 1.1rem;               
+        top: 75px;
     }
 }
 
 @media only screen and (max-width:402px) {
-    div.date_created {  
-        top: 92px;
-        font-size: 1.1rem;               
+    div.date_created {
+        top: 112px;
     }
 }
 
-.random_post img {
-    width: 150px;
-    height: 88.55px;  
+blockquote {
+    margin: 10px 0 15px 0;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.random_post li {
-    list-style-type: none;
+blockquote p {
+    display: flex;
+    font-size: 12px;
+    padding-bottom: 0;
+}
+
+blockquote:after,
+blockquote:before,
+blockquote>:last-child:before, 
+blockquote>:last-child:after {
+    position: absolute;
+    width: 30px;
+    height: 15px;
+    border-color: red;
+    border-style: solid;
+    content: ' ';
+}
+ 
+blockquote:before {
+    top: 15px;
+    left: -2px;
+    border-width: 1px 0 0 1px;
+}
+ 
+blockquote:after {
+    top: 10px;
+    right: 0px;
+    border-width: 1px 1px 0 0;
+}
+ 
+blockquote>:last-child:before {
+    bottom: 35px;
+    right: 0px;
+    border-width: 0 1px 1px 0;
+}
+ 
+blockquote>:last-child:after {
+    bottom: 35px;
+    left: -4px;
+    border-width: 0 0 1px 1px;
 }
